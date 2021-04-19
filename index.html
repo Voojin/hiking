@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang=ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav id="start" class="main_nav">
+            <span class="logo">mntm</span>
+            <span class="nav_item"><a href="#one"> Equipment</a></span>
+            <span class="nav_item2"><a href="#two">About us</a></span>
+            <span class="nav_item"><a href="#three">Blog</a></span>
+            <span class="accout"><img src="img/acc.png" alt=""> Account</span>
+        </nav>
+        <div class="main_cont">
+            <div class="soc_links">Follow us <a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a> <a href="https://twitter.com/?lang=ru"><img src="/img/twitter.png" alt=""></a>
+            </div>
+            <div class="heading">
+                <h1><img src="img/line.png" alt=""> A Hiking guide</h1>
+                <h2 class="head_h2">Be prepared for the Mountains and beyond!</h2>
+               <a href="#one"><p>scroll down</p></a> <img class="arrow" src="img/arrow_downward_24px.png" alt="">
+            </div>
+
+            <div class="qwe">
+                <span><a href="#start">Start</a></span>
+                <span><a href="#one">01</a></span>
+                <span><a href="#two">02</a></span>
+                <span><a href="#three">03</a></span>
+                <span><a href="#end">End</a></span>
+
+                <div class="progress-container">
+                    <div class="progress-bar" id="myBar"></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </header>
+    <section id="one" class="sec_one">
+        <div class="sec_one_text">
+
+            <h2 class="one_h2"> <img src="img/line.png" alt=""> GEt Started</h2>
+            <h3 class="one_h3">What level of hiker are you?</h3>
+            <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking
+                level guide will help you plan hikes according to different hike ratings set by various websites like
+                All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert,
+                or expert backpacker? </p>
+
+            <p class="read">read more</p>
+            <div class="qwer"><img class="arrow" src="img/arrow_d.png" alt=""></div>
+
+        </div>
+        <div class="one_img"><img src="img/01.png" alt=""></div>
+    </section>
+
+    <section id="two" class="sec_two">
+        <div class="two_img"><img src="img/02.png" alt=""></div>
+        <div class="sec_two_text">
+
+            <h2 class="two_h2"> <img src="img/line.png" alt=""> Hiking Essentials</h2>
+            <h3 class="two_h3">Picking the right Hiking Gear!</h3>
+            <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking
+                level guide will help you plan hikes according to different hike ratings set by various websites like
+                All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert,
+                or expert backpacker? </p>
+            <p class="read">read more</p>
+            <div class="qwer"><img class="arrow" src="img/arrow_d.png" alt=""></div>
+        </div>
+    </section>
+    <section id="three" class="sec_three">
+        <div class="sec_three_text">
+
+            <h2 class="three_h2"> <img src="img/line.png" alt=""> GEt Started</h2>
+            <h3 class="three_h3">What level of hiker are you?</h3>
+            <p>Determining what level of hiker you are can be an important tool when planning future hikes. This hiking
+                level guide will help you plan hikes according to different hike ratings set by various websites like
+                All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert,
+                or expert backpacker? </p>
+            <p class="read">read more</p>
+            <div class="qwer"><img class="arrow" src="img/arrow_d.png" alt=""></div>
+        </div>
+        <div><img class="three_img" src="img/03.png" alt=""></div>
+    </section>
+    <footer class="footer">
+<div class="footer_column_one">
+    <p>MNTN</p>
+    <p>Get out there & discover your next<br> slope, mountain & destination!</p>
+    <p id="end" class="copyright">Copyright 2019 MNTN, Inc. Terms & Privacy</p>
+</div>
+<div class="footer_column_two"><h5>More on The Blog</h5>
+<p>About MNTN</p>
+<p>Contributors & Writers</p>
+<p>Write For Us</p>
+<p>Contact Us</p>
+<p>Privacy Policy</p>
+</div>
+<div class="footer_column_three"><h5>More on MNTN</h5>
+<p>The Team</p>
+<p>Jobs</p>
+<p>Press</p>
+</div>
+    </footer>
+
+
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+</body>
+
+</html>
